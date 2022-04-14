@@ -373,7 +373,7 @@
                             <target>
                                 
                                 <replace file="${glassfish.home}/glassfish/domains/domain1/config/domain.xml" 
-                                    token="-Xmx512m" value="-Xmx1024m" />
+                                    token="-Xmx512m" value="-Xmx2048m" />
 
                                 <taskdef resource="net/sf/antcontrib/antcontrib.properties"
                                          classpathref="maven.plugin.classpath" />
